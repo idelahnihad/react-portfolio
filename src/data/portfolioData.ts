@@ -28,8 +28,8 @@ export const personalInfo = {
     "Today I apply that same analytical, detail-oriented approach to software: " +
     "designing databases, modeling system requirements, and building responsive " +
     "web interfaces with HTML, CSS, JavaScript, and React.",
-  headshotImage: "/assets/headshot.png", // head-and-shoulders photo (rubric item 4)
-  resumePdf: "/assets/resume.pdf",       // PDF resume link (rubric item 5)
+  headshotImage: "assets/headshot.png", // head-and-shoulders photo (rubric item 4)
+  resumePdf: "assets/resume.pdf",       // PDF resume link (rubric item 5)
 };
 
 // ---------- Projects page (at least 3 projects, rubric item 6) ----------
@@ -44,7 +44,7 @@ export interface Project {
 export const projectList: Project[] = [
   {
     title: "MemoryKeeper App — System Requirements & Modeling",
-    image: "/assets/project-memorykeeper.svg",
+    image: "assets/project-memorykeeper.svg",
     role: "UI/UX Design, System Requirements & Modeling (team project)",
     description:
       "Collaborated to design a comprehensive Software Requirements " +
@@ -57,7 +57,7 @@ export const projectList: Project[] = [
   },
   {
     title: "Enterprise Database System",
-    image: "/assets/project-enterprise-db.svg",
+    image: "assets/project-enterprise-db.svg",
     role: "Database Designer & SQL Developer",
     description:
       "Applied entity-relationship modelling and normalization to design a " +
@@ -68,7 +68,7 @@ export const projectList: Project[] = [
   },
   {
     title: "Skill Swap Web Application",
-    image: "/assets/project-skillswap.svg",
+    image: "assets/project-skillswap.svg",
     role: "Front-End Developer (Agile/Scrum team)",
     description:
       "Designed and developed a responsive, user-friendly front end for an " +
